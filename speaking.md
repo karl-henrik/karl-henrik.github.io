@@ -5,7 +5,7 @@ layout: default
 Speaking!
 {: style="color:gray; font-size: 300%; text-align: center;"}
 
-I deliver fun, action inspiring conference talks and workshops about .NET software development, microcontrollers and the Internet of Things!
+I deliver fun, action inspiring conference talks, workshops and keynotes about .NET development, microcontrollers and the Internet of Things!
 {: style="font-size:150%;text-align: center"} 
 
 
