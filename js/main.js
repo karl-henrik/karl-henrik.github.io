@@ -3,17 +3,17 @@ layout: null
 ---
     $(document).ready(function() {
         $('a.blog-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{site.url}}"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.url }}"));
             setAnimation();
         })
 
         $('a.about-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{site.url}}about"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.url }}about"));
             setAnimation();
         })
 
         $('a.speaking-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{site.url}}speaking"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.url }}speaking"));
             setAnimation();
         })
 
