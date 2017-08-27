@@ -1,7 +1,7 @@
 # Site settings
 title: Karl-Henrik
 description: The random ramblings of Karl-Henrik "KH" Nilsson
-url: 'karl-henrik.github.io'
+url: 'https://karl-henrik.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
