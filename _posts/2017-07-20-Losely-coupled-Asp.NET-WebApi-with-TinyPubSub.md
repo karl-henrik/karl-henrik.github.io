@@ -30,7 +30,7 @@ Publishing is done in a very similar manner.
 Now that we know the basics about the TinyPubSub library, lets use it to build a loosely coupled Asp.Net WebAPI. The event emitter in this case will be a HTTP POST to our API but TinyPubSub could be used with any event emitter. 
 
 Start by adding a new .NET Core Asp.NET project and select the WebAPI 2.0 Template to generate a simple API application.
-![Visual studio create new project](../Images/TPSLC-1st.png)
+![Visual studio create new project]({{site.url }}/Images/TPSLC-1st.png)
 
 Install TinyPubSub from the package manager console.
 > install-package Tinypubsub
@@ -119,6 +119,6 @@ public static class Topics
 
 Visual studio users who implement this can also use the reference function to quickly see what observers and publishers a specific topic has. 
 
-![The reference functions](../Images/TPSLC-2.png)
+![The reference functions]({{site.url }}/Images/TPSLC-2.png)
 
 
