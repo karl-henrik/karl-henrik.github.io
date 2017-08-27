@@ -8,17 +8,17 @@ layout: null
         })
 
         $('a.about-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url }}about"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.url }}about/"));
             setAnimation();
         })
 
         $('a.speaking-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url }}speaking"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.url }}speaking/"));
             setAnimation();
         })
 
         if (window.location.hash && window.location.hash == '#about') {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url}}about"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.url}}about/"));
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
@@ -28,7 +28,7 @@ layout: null
         }
 
         if (window.location.hash && window.location.hash == '#speaking') {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url}}speaking"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.url}}speaking/"));
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
