@@ -25,7 +25,11 @@ defaults:
       type: 'posts'
     values:
         layout: 'post'
-
+  - 
+    scope:
+      path: "Images"
+    values:
+      image: true
 # Build settings
 destination: _site
 paginate: 10
