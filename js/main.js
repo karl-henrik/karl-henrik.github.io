@@ -32,7 +32,7 @@ layout: null
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
-        if (window.location.pathname !== "/" && window.location.hash !== "") {
+        if (window.location.pathname !== "/" || window.location.hash !== "") {
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
