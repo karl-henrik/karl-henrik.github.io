@@ -32,7 +32,7 @@ layout: null
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
-        if (window.location.href !== '{{ site.url }}/' && window.location.href !== '{{ site.url }}/index.html') {
+        if (window.location.pathname !== "/" && window.location.hash !== "") {
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
