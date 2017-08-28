@@ -1,8 +1,8 @@
 # Site settings
 title: Karl-Henrik
 description: The random ramblings of Karl-Henrik "KH" Nilsson
-url: 'https://karl-henrik.github.io/'
-baseurl: ''
+url: 'https://karl-henrik.github.io'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 disqus_shortname: karlhenrik
@@ -43,5 +43,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

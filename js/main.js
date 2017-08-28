@@ -3,36 +3,36 @@ layout: null
 ---
     $(document).ready(function() {
         $('a.blog-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url }}"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.baseurl }}"));
             setAnimation();
         })
 
         $('a.about-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url }}about/"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.baseurl }}about/"));
             setAnimation();
         })
 
         $('a.speaking-button').click(function(e) {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url }}speaking/"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.baseurl }}speaking/"));
             setAnimation();
         })
 
         if (window.location.hash && window.location.hash == '#about') {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url}}about/"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.baseurl}}about/"));
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
         if (window.location.hash && window.location.hash == '#blog') {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url}}"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.baseurl}}"));
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
         if (window.location.hash && window.location.hash == '#speaking') {
-            $(".content-wrapper").html(getContentFromURL("{{ site.url}}speaking/"));
+            $(".content-wrapper").html(getContentFromURL("{{ site.baseurl}}speaking/"));
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
-        if (window.location.pathname !== '{{ site.url }}' && window.location.pathname !== '{{ site.url }}index.html') {
+        if (window.location.pathname !== '{{ site.baseurl }}' && window.location.pathname !== '{{ site.baseurl }}index.html') {
             $('.panel-cover').addClass('panel-cover--collapsed')
         }
 
