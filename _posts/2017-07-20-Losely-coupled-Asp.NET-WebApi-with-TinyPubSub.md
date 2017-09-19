@@ -1,5 +1,5 @@
 ---
-title:  'Losely coupled Asp.NET WebApi with TinyPubSub'
+title:  'Loosely coupled Asp.NET WebApi with TinyPubSub'
 date:   2017-07-20 11:31:47 
 categories: [architecture,TinyPubSub]
 tags: [TinyPubSub,WebApi]
