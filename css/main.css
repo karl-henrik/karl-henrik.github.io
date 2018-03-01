@@ -47,6 +47,10 @@ pre.highlight code,
     margin: 0 20px 10px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .user-image {
 
   position: relative;
