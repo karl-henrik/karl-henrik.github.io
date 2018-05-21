@@ -36,7 +36,9 @@ None.
 
 This output could mean nothing, but it could also be our culprit! I rebooted my PC and found that the request was still there, hmm a faulty driver perhaps? Disabling the sound driver did solve my, and I started to look for an updated driver for my soundcard. After a short but unsuccessful hunt, I gave up and re-enabled the old drivers noticing that the request directly reappeared in the list after running **powercfg -REQUESTS** time to break out the big guns. 
 
->powercfg -REQUESTSOVERRIDE DRIVER "Realtek High Definition Audio(SST)" SYSTEM
+```
+powercfg -REQUESTSOVERRIDE DRIVER "Realtek High Definition Audio(SST)" SYSTEM
+```
 
 I decided to add an override to the request, effectively forbidding the driver to keep my poor computer awake.
 
