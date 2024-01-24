@@ -17,7 +17,7 @@ When I posted my experience on LinkedIn about the misunderstandings caused by th
 <br>
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-    <img src="assets/img/2023-12-19-it-is-time-to-ditch-the-TLA/robert-folkesson.jpg" alt="Profile Photo" style="border-radius: 50%;max-width:150px">
+    <img src="/assets/img/2023-12-19-it-is-time-to-ditch-the-TLA/robert-folkesson.jpg" alt="Profile Photo" style="border-radius: 50%;max-width:150px">
     <p style="margin: 0;"><strong>Robert Folkesson</strong><br>
     Not too long ago I was in a meeting where half the room thought the SQL we talked about meant the product - and half the room thought it meant "Sales Qualified Leads" 😂</p>
 </div>
@@ -25,7 +25,7 @@ When I posted my experience on LinkedIn about the misunderstandings caused by th
 <br>
 
 <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-    <img src="assets/img/2023-12-19-it-is-time-to-ditch-the-TLA/johan-nordberg.jpg" alt="Profile Photo" style="border-radius: 50%;max-width:150px">
+    <img src="/assets/img/2023-12-19-it-is-time-to-ditch-the-TLA/johan-nordberg.jpg" alt="Profile Photo" style="border-radius: 50%;max-width:150px">
     <p style="margin: 0;"><strong>Johan Nordberg</strong><br>
     A while back we had internal presentations about the updates in the new Well-Architected Framework. About 45 minutes in the session of the Security pillar, someone raised the hand and asked a question about a feature in Azure Web Application Firewall. "WAF is the same as WAF, right?"</p>
 </div>
