@@ -6,11 +6,16 @@ order: 4
 
 {% assign post = site.posts.first %}
 
-Hello there! I'm Karl-Henrik Nilsson, but my friends like to call me KH. I am a standard, middle-aged tech nerd living in Dubai but I am originally from Sweden. I have a passion for technical things, writing software and building hardware projects. Over the years I have spent quite a lot of time speaking on stages around the world, and that have, besides an impressive roster of friends, given me the grand delusion that I might be worth listening to, who knows maybe I am?
+Hey there! I'm Karl-Henrik Nilsson but my friends call me KH. I'm your typical middle-aged tech nerd, currently based in sunny Dubai but originally from Sweden. My passion? Crafting software, tinkering with hardware, and diving deep into all things tech.
 
-I enjoy telling stories, if its to a room full of people or for my daughter right before bedtime doesn't really matter. I hope that in this blog I will be able to tell a few of my favourite stories. These includes how I accidentally became a public speaker and how I landed a job as a programmer for a programming language I had never heard of!
+I've spent a fair share of my life speaking on stages around the globe, which, aside from giving me an amazing circle of friends, has somehow convinced me that people might actually enjoy hearing my stories. Crazy, right?
 
-This is my latest foray into blogging, I have never been much good at the continuity part of blogging, mostly I dream up grand blogging projects that I tend to forget about or don't have the energy to fill with the content they were designed to hold. This time around I have selected a simpler format, and I will try to go content first. I will be writing about a broader set of topics, even if most probably still will be about technology, will it work? Who knows! Then again you are the type of person reading the about page on a random blog from an unkown person so you might not be the right person to judge?
+Speaking of stories, I absolutely love telling them! Whether it's to a crowded room at a conference or entertaining my daughter at bedtime. Here on this blog, I aim to share some of my favorites, like the time I accidentally became a public speaker or when I landed a programming job in a language I'd never even heard of!
 
-So why not dive in a start by reading my latest post <a href="{{post.url}}">{{ post.title }}</a>?
+Truth be told, I've had a few false starts in the blogging world—grand ideas that fizzled out or got forgotten. But this time, I'm keeping it simple and focusing on the content. Expect a mix of tech and life insights. Will it stick? Who knows! But hey, you're already reading the About page of some random guy's blog, so you might just be along for the ride!
+
+Check out my latest post: <a href="{{post.url}}">{{ post.title }}</a>.
+
+Feeling social? Let's connect!
+{% include social.html %}
 
