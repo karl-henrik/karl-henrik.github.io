@@ -1,0 +1,39 @@
+{% assign today = site.time %}
+{% assign today_date = today | date: '%Y-%m-%d' %}
+{% assign has_upcoming = false %}
+{% assign sorted_talks = site.data.talks.upcoming | sort: 'date' %}
+{% if sorted_talks %}
+  {% for talk in sorted_talks %}
+    {% if talk.date %}
+      {% assign talk_date = talk.date | date: '%Y-%m-%d' %}
+      {% if talk_date >= today_date %}
+        {% assign has_upcoming = true %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="talks-section">
+  <p>🎤 Got an event and need a speaker? <a href="https://sessionize.com/karl-henrik-nilsson/">Invite me!</a></p>
+
+  {% if has_upcoming %}
+    <p>📅 Catch my upcoming talks:</p>
+    <ul class="upcoming-talks">
+      {% for talk in sorted_talks %}
+        {% if talk.date %}
+          {% assign talk_date = talk.date | date: '%Y-%m-%d' %}
+          {% if talk_date >= today_date %}
+            <li>
+              <strong>{{ talk.date | date: '%b %d, %Y' }}</strong> - <a href="{{ talk.url }}">{{ talk.event }}</a> in
+              <strong>{{ talk.location }}</strong>
+              {%- if talk.title %}: "{{ talk.title }}"{% endif %}
+            </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>📅 No upcoming talks scheduled at the moment, but check back soon!</p>
+  {% endif %}
+</div>

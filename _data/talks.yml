@@ -1,0 +1,33 @@
+# Upcoming and past speaking events
+# Format:
+#  - title: "Talk title"
+#    event: "Event name"
+#    location: "City, Country"
+#    date: YYYY-MM-DD
+#    url: "https://event-url.com"
+
+upcoming:
+  - title: "Software Archeology: Excavating Ancient Code in the Modern Enterprise"
+    event: "DevSum"
+    location: "Stockholm, Sweden"
+    date: "2025-06-12"
+    url: "https://www.devsum.se/"
+
+  - title: "But I Just Want to Write Code... Career Advice for Satisfied Developers"
+    event: "KCDC"
+    location: "Kansas City, USA"
+    date: "2025-08-13"
+    url: "https://www.kcdc.info/"
+
+  - title: "Software Archeology: Excavating Ancient Code in the Modern Enterprise"
+    event: "KCDC"
+    location: "Kansas City, USA"
+    date: "2025-08-13"
+    url: "https://www.kcdc.info/"
+
+past:
+  - title: "AI Colleagues and Co-Pilots: Making the Most of Our New Teammates"
+    event: "Global AI Bootcamp"
+    location: "Abu Dhabi, UAE"
+    date: "2025-05-10"
+    url: "https://lnkd.in/dBMgnsXq"

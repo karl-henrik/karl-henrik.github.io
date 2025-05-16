@@ -1,0 +1,31 @@
+# The contact options.
+
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/khnilsson/"
+
+- type: threads
+  icon: "fab fa-threads"
+  url: "https://www.threads.net/@khnilsson84"
+
+- type: twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/khnilsson"
+
+- type: instagram
+  icon: "fab fa-instagram"
+  url: "https://instagram.com/khnilsson84"
+
+- type: email
+  icon: "fas fa-envelope"
+  url: "mailto:karl-henrik@mean.se"
+  noblank: true
+
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/karl-henrik"
+
+- type: rss
+  icon: "fas fa-rss"
+  url: "/feed.xml"
+  noblank: true
