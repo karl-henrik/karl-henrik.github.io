@@ -7,6 +7,12 @@
 #    url: "https://event-url.com"
 
 upcoming:
+  - title: "But I Just Want to Write Code... Career Advice for Satisfied Developers"
+    event: "DevConf"
+    location: "Łódź, Poland"
+    date: "2025-10-9"
+    url: "https://devconf.pl/speakers/karl-henrik-nilsson"
+
   - title: "Software Archeology: Excavating Ancient Code in the Modern Enterprise"
     event: "DevSum"
     location: "Stockholm, Sweden"
