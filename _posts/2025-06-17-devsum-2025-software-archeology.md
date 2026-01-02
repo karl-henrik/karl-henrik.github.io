@@ -15,7 +15,6 @@ I have spoken at DevSum many times and I love the culture at this event. From th
 
 If you are keen on public speaking, keep an eye out for next year's call for papers and submit something! If you are new to speaking or want to give it a go but don't know where to start, feel free to reach out. I would love to help a new speaker take the stage!
 
-
 [Download my slides here!](https://karlhenrik-my.sharepoint.com/:p:/g/personal/karl-henrik_mean_se/Eb-9ms3bRDpAoPwDa4ZGYscBuhTlJKQVVkiAnnIxV1ZWgQ?e=zPSe5p)
 
 
