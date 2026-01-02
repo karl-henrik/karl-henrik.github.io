@@ -1,31 +1,23 @@
 ---
-title: "Speaking at Mobile Developers Week - AI Colleagues and Co-Pilots: Making the Most of Our New Teammates"
+title: "Mobile Developers Week - AI Colleagues and Co-Pilots: Making the Most of Our New Teammates"
 date: 2025-12-14
 categories: [Public Speaking, Conferences]
 tags: [speaking, community]
 ---
 
-This weekend I am speaking at [**Mobile Developers Week**](https://mobiledevelopersweek.com/) on the topic: *"AI Colleagues and Co-Pilots: Making the Most of Our New Teammates."*
+![Image](/assets/img/2025-12-14-mobiledevelopersweek/header.jpeg)
 
-I attended yesterday's sessions on Saturday and had a great time with many lovely conversations, I am still new to the UAE community and it feels great to expand my network in the region. Today, Sunday the 14th of December, it's my turn to take the stage!
+The last conference of the year was [**Mobile Developers Week**](https://mobiledevelopersweek.com/), where I gave my talk: *"AI Colleagues and Co-Pilots: Making the Most of Our New Teammates."*
 
-## What to Expect
+I had a great time with many lovely conversations. I am still new to the UAE community, and it feels great to meet more speakers and technology enthusiasts in the region. 
 
-I'm not an AI guy, but as always, I've been curious and spent a lot of time learning! In this talk, I'll share what I've learned from my experiments with AI tools about how we can make the most of these new teammates in our daily development work, and why people have different experiences using AI, even when they are following the same patterns.  
+On Sunday it was my turn to take the stage, and I have to thank the lovely audience for both great participation and their fantastic feedback on my talk, especially those who said they were going straight home to implement some of my ideas. That's the best kind of feedback!
 
-We'll explore topics like:
+I quite like this talk, even though I am not an AI specialist, but as always, I've been curious and spent a lot of time learning! In this talk, I share what I've learned from my experiments with AI tools about how we can make the most of these new teammates in our daily development work, and why people have different experiences using AI, even when they are following the same patterns.  
 
-- Selecting the right AI model for different tasks
-- Why iterating is so important when working with AI 
-- Leveraging context files in GitHub Copilot to guide AI assistance
-- Practical tips from real-world experimentation
-
-If you're curious about AI tools and want to learn how to work more effectively with them, this talk is for you!
+Thanks to the organizers who brought people from a range of developer backgrounds together under one banner, I had a really nice time!  
 
 [Download my slides here!](https://karlhenrik-my.sharepoint.com/:p:/g/personal/karl-henrik_mean_se/Eb-cW9h-xvNLhc_G2_fu9hwBPFyQik37M8SjQ7pJrZjbXw?e=GiYSUK)
 
----
-
-*This post will be updated after the talk - it is mostly here for an easy place to find the slides so people can focus on the talk and not have to photo the slides* 😊
 
 {% include upcoming-talks.html %}
