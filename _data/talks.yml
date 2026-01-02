@@ -8,6 +8,28 @@
 
 upcoming:
   - title: "But I Just Want to Write Code... Career Advice for Satisfied Developers"
+    event: "DEVOXX GREECE 2026"
+    location: "Athens, Greece"
+    date: "2026-04-23"
+    url: "https://m.devoxx.com/events/dvgr26/talks/3414/but-i-just-want-to-write-code-career-advice-for-satisfied-developers"
+  - title: "Azure Functions – Performance Sins and Their Penance"
+    event: "DevSum 2026"
+    location: "Stockholm, Sweden"
+    date: "2026-06-03"
+    url: "https://www.devsum.se/"
+  - title: "Workshop: Production-Ready Azure Functions: Build, Tune, and Scale High-Performance Serverless Apps"
+    event: "DevSum 2026"
+    location: "Stockholm, Sweden"
+    date: "2026-06-02"
+    url: "https://www.devsum.se/"
+past:
+  - title: "AI Colleagues and Co-Pilots: Making the Most of Our New Teammates"
+    event: "Global AI Bootcamp"
+    location: "Abu Dhabi, UAE"
+    date: "2025-05-10"
+    url: "https://lnkd.in/dBMgnsXq"
+  
+  - title: "But I Just Want to Write Code... Career Advice for Satisfied Developers"
     event: "DevConf"
     location: "Łódź, Poland"
     date: "2025-10-9"
@@ -30,10 +52,3 @@ upcoming:
     location: "Kansas City, USA"
     date: "2025-08-15"
     url: "https://www.kcdc.info/"
-
-past:
-  - title: "AI Colleagues and Co-Pilots: Making the Most of Our New Teammates"
-    event: "Global AI Bootcamp"
-    location: "Abu Dhabi, UAE"
-    date: "2025-05-10"
-    url: "https://lnkd.in/dBMgnsXq"
