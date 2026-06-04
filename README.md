@@ -37,11 +37,12 @@ To work on this blog locally:
    ```bash
    cd karl-henrik.github.io
    ```
-3. Install dependencies:
+3. Use Ruby 3.3 (for example with `rbenv`, `asdf`, or `mise`).
+4. Install dependencies:
    ```bash
    bundle install
    ```
-4. Start the local development server:
+5. Start the local development server:
    ```bash
    bundle exec jekyll serve
    ```
