@@ -1,0 +1,22 @@
+---
+- name: "Azure Functions"
+  slug: "azure-functions"
+  count: 2
+- name: "Azure"
+  slug: "azure"
+  count: 2
+- name: "Conferences"
+  slug: "conferences"
+  count: 4
+- name: "Oppinion posts"
+  slug: "oppinion-posts"
+  count: 1
+- name: "Performance Monitoring"
+  slug: "performance-monitoring"
+  count: 1
+- name: "Public Speaking"
+  slug: "public-speaking"
+  count: 5
+- name: "Tech jargon"
+  slug: "tech-jargon"
+  count: 1

@@ -1,0 +1,58 @@
+---
+- name: "ai"
+  slug: "ai"
+  count: 1
+- name: "architecture"
+  slug: "architecture"
+  count: 1
+- name: "azure functions"
+  slug: "azure-functions"
+  count: 2
+- name: "azure"
+  slug: "azure"
+  count: 2
+- name: "career"
+  slug: "career"
+  count: 1
+- name: "community"
+  slug: "community"
+  count: 5
+- name: "developers"
+  slug: "developers"
+  count: 1
+- name: "devsum"
+  slug: "devsum"
+  count: 1
+- name: "github copilot"
+  slug: "github-copilot"
+  count: 1
+- name: "kcdc"
+  slug: "kcdc"
+  count: 1
+- name: "legacy code"
+  slug: "legacy-code"
+  count: 1
+- name: "monitoring"
+  slug: "monitoring"
+  count: 1
+- name: "oppinions"
+  slug: "oppinions"
+  count: 1
+- name: "performance"
+  slug: "performance"
+  count: 1
+- name: "review"
+  slug: "review"
+  count: 1
+- name: "serverless"
+  slug: "serverless"
+  count: 2
+- name: "software archeology"
+  slug: "software-archeology"
+  count: 1
+- name: "speaking"
+  slug: "speaking"
+  count: 5
+- name: "tla"
+  slug: "tla"
+  count: 1
