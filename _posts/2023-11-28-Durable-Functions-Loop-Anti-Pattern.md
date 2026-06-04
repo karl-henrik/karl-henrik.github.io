@@ -2,7 +2,7 @@
 title: Durable Functions - Loop Anti Pattern
 date: 2023-11-28
 categories: [Azure, Azure Functions]
-tags: [azure, azure functions, serverless]     # TAG names should always be lowercase
+tags: [azure, azure functions, serverless] 
 ---
 
 Ever felt like your durable functions are moving at a snails pace? Well you are not alone! During my time at Microsoft I met a lot of people who faced grave performance issues with Durable Functions and today I would like to talk about on of the most common issues that I call the **Loop Anti Pattern.**. This pattern emerges when you await code inside a loop forcing the Durable Function to wait for each itteration of the loop rather than running all executions in parallel. 
